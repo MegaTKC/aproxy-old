@@ -24,7 +24,7 @@ app.get('/aeon', function(req, res) {
     proxy.ws(req, socket, head);
   });
 
-  proxyServer.listen(80);
+  proxyServer.listen(443);
 });
 
 app.get('/1.8', function(req, res) {
@@ -48,7 +48,7 @@ app.get('/1.8', function(req, res) {
     proxy.ws(req, socket, head);
   });
 
-  proxyServer.listen(80);
+  proxyServer.listen(443);
 });
 
 app.listen(8080);
