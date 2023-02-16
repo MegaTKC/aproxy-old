@@ -1,3 +1,4 @@
+var http = require('http');
 var httpProxy = require('http-proxy');
 
 var proxy = new httpProxy.createProxyServer({
